@@ -15,7 +15,7 @@ public class Cliente {
     private Long id;
     private String nomecliente;
 
-    @OneToMany(mappedBy = "contasreceber")
+    @OneToMany(mappedBy = "cliente")
     private List<ContasReceber> contasreceber = new ArrayList<>();
 
 
